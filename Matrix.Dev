@@ -1,0 +1,6 @@
+1. Create a TXT record in your DNS configuration for the following hostname: _github-pages-challenge-Devsex.matrix.dev
+2. Use this code for the value of the TXT record: d0b26a6e614ea145456d000ce80e5d
+3. Wait until your DNS configuration changes. This could take up to 24 hours to propagate.
+  git remote add origin git@github.com:Devsex/Matrix-Custume-OS.git
+git branch -M main
+git push -u origin mainhttps://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
