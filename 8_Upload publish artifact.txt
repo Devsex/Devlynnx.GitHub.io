@@ -1,0 +1,17 @@
+2024-01-01T19:18:07.5907813Z ##[group]Run actions/upload-artifact@v4
+2024-01-01T19:18:07.5908419Z with:
+2024-01-01T19:18:07.5908743Z   name: publish-artifact
+2024-01-01T19:18:07.5909091Z   path: lib
+2024-01-01T19:18:07.5909498Z   if-no-files-found: warn
+2024-01-01T19:18:07.5909877Z   compression-level: 6
+2024-01-01T19:18:07.5910206Z ##[endgroup]
+2024-01-01T19:18:07.8071154Z With the provided path, there will be 93 files uploaded
+2024-01-01T19:18:07.8075072Z Artifact name is valid!
+2024-01-01T19:18:07.8076341Z Root directory input is valid!
+2024-01-01T19:18:07.9022682Z Beginning upload of artifact content to blob storage
+2024-01-01T19:18:08.0725574Z Uploaded bytes 66500
+2024-01-01T19:18:08.0914136Z Finished uploading artifact content to blob storage!
+2024-01-01T19:18:08.0921320Z SHA256 hash of uploaded artifact zip is 5493fed307bfaf99f387b9f90f9dd114c8c1a141f4a25a63c3c0af13e70855cf
+2024-01-01T19:18:08.0923541Z Finalizing artifact upload
+2024-01-01T19:18:08.1729173Z Artifact publish-artifact.zip successfully finalized. Artifact ID 1142061331
+2024-01-01T19:18:08.1730548Z Artifact publish-artifact has been successfully uploaded! Final size is 66500 bytes. Artifact ID is 1142061331

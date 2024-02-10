@@ -1,0 +1,18 @@
+2024-01-01T19:18:00.4851680Z ##[group]Run npm run lint
+2024-01-01T19:18:00.4852115Z [36;1mnpm run lint[0m
+2024-01-01T19:18:00.4899805Z shell: /usr/bin/bash -e {0}
+2024-01-01T19:18:00.4900349Z ##[endgroup]
+2024-01-01T19:18:00.7227371Z 
+2024-01-01T19:18:00.7228566Z > @jsdevtools/npm-publish@3.0.1 lint
+2024-01-01T19:18:00.7229950Z > npm run _eslint && npm run _prettier -- --check
+2024-01-01T19:18:00.7230511Z 
+2024-01-01T19:18:00.9701484Z 
+2024-01-01T19:18:00.9702771Z > @jsdevtools/npm-publish@3.0.1 _eslint
+2024-01-01T19:18:00.9703508Z > eslint "**/*.@(js|ts)"
+2024-01-01T19:18:00.9703772Z 
+2024-01-01T19:18:06.1742964Z 
+2024-01-01T19:18:06.1744227Z > @jsdevtools/npm-publish@3.0.1 _prettier
+2024-01-01T19:18:06.1745430Z > prettier "**/*.@(js|ts|json|md|yaml)" --check
+2024-01-01T19:18:06.1746008Z 
+2024-01-01T19:18:06.2705087Z Checking formatting...
+2024-01-01T19:18:07.5522699Z All matched files use Prettier code style!

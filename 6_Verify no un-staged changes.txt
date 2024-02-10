@@ -1,0 +1,5 @@
+2024-01-01T19:18:00.4598036Z ##[group]Run git status --porcelain
+2024-01-01T19:18:00.4598545Z [36;1mgit status --porcelain[0m
+2024-01-01T19:18:00.4599081Z [36;1mgit diff-files --quiet[0m
+2024-01-01T19:18:00.4650270Z shell: /usr/bin/bash -e {0}
+2024-01-01T19:18:00.4650675Z ##[endgroup]

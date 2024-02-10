@@ -1,0 +1,23 @@
+2024-01-01T19:17:58.1390041Z ##[group]Run npm run build
+2024-01-01T19:17:58.1390506Z [36;1mnpm run build[0m
+2024-01-01T19:17:58.1443142Z shell: /usr/bin/bash -e {0}
+2024-01-01T19:17:58.1443497Z ##[endgroup]
+2024-01-01T19:17:58.3730664Z 
+2024-01-01T19:17:58.3732082Z > @jsdevtools/npm-publish@3.0.1 build
+2024-01-01T19:17:58.3733100Z > concurrently -g npm:build:*
+2024-01-01T19:17:58.3734618Z 
+2024-01-01T19:17:58.8055225Z [dist] 
+2024-01-01T19:17:58.8057084Z [dist] > @jsdevtools/npm-publish@3.0.1 build:dist
+2024-01-01T19:17:58.8059012Z [dist] > esbuild src/action/main.ts --bundle --sourcemap --outdir=dist --platform=node --target=node16
+2024-01-01T19:17:58.8060331Z [dist] 
+2024-01-01T19:17:58.8470905Z [dist] 
+2024-01-01T19:17:58.8472337Z [dist]   dist/main.js      241.7kb
+2024-01-01T19:17:58.8473423Z [dist]   dist/main.js.map  349.9kb
+2024-01-01T19:17:58.8474035Z [dist] 
+2024-01-01T19:17:58.8474937Z [dist] ⚡ Done in 28ms
+2024-01-01T19:17:58.8607398Z [dist] npm run build:dist exited with code 0
+2024-01-01T19:17:58.8608614Z [lib] 
+2024-01-01T19:17:58.8611099Z [lib] > @jsdevtools/npm-publish@3.0.1 build:lib
+2024-01-01T19:17:58.8611930Z [lib] > tsc
+2024-01-01T19:17:58.8612386Z [lib] 
+2024-01-01T19:18:00.4432262Z [lib] npm run build:lib exited with code 0
